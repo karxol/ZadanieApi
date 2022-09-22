@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl"> 
+    <head> 
+        <meta charset="utf-8">
+        <title>Kantor</title>
+    </head>
+    <body style = "background-color: lightgrey;">
+        <div>
+            <img src="static/kantor.png"  alt="Napis kantor" tittle="Napis kantor" height="200" width="900"/> 
+            <h4><b>UWAGA:</b></h4>
+            <p style="font-size:18px;"><br> W oknie z opisem  <b>"Podaj wartość"</b> kwotę jaką chcesz wymienić. <br>W dalszym oknie otrzymasz kwotę w <b>PLN</b> jaką potrzebujesz do zakupu wymaganej waluty (przeliczenie na podstawie kursu NBP z dnia <b>{{ data_kursu }})</b></p><br>
+            
+        </div>
+        <div>
+            <form method="POST">
+                <label for="codes">Wybierz walutę:</label>
+                <select name="codes">
+                    {% for code in codes %}
+                    <option>{{code}}</option>
+                    {% endfor %}
+                </select>
+                <label for="amount">Podaj ilość jaką chcesz kupić</label>
+                <input type="text" name="amount">
+                <button>PRZELICZ</button>
+            </form>
+            {% if kwota %}
+            <br><br><br><label for="kwota">Kwota jaką muszisz zapłacićw PLN {{ kwota }}.</label>
+            {% endif %}
+        </div>
+    </body>
+</html>

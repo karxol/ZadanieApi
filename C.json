@@ -1,0 +1,14 @@
+[{"table":"C","no":"181/C/NBP/2022","tradingDate":"2022-09-20","effectiveDate":"2022-09-21","rates":
+[{"currency":"dolar amerykański","code":"USD","bid":4.6814,"ask":4.7760},
+{"currency":"dolar australijski","code":"AUD","bid":3.1286,"ask":3.1918},
+{"currency":"dolar kanadyjski","code":"CAD","bid":3.5195,"ask":3.5907},
+{"currency":"euro","code":"EUR","bid":4.6692,"ask":4.7636},
+{"currency":"forint (Węgry)","code":"HUF","bid":0.011522,"ask":0.011754},
+{"currency":"frank szwajcarski","code":"CHF","bid":4.8584,"ask":4.9566},
+{"currency":"funt szterling","code":"GBP","bid":5.3317,"ask":5.4395},
+{"currency":"jen (Japonia)","code":"JPY","bid":0.0327,"ask":0.03336},
+{"currency":"korona czeska","code":"CZK","bid":0.1905,"ask":0.1943},
+{"currency":"korona duńska","code":"DKK","bid":0.6279,"ask":0.6405},
+{"currency":"korona norweska","code":"NOK","bid":0.4562,"ask":0.4654},
+{"currency":"korona szwedzka","code":"SEK","bid":0.4331,"ask":0.4419},
+{"currency":"SDR (MFW)","code":"XDR","bid":6.0511,"ask":6.1733}]}]
